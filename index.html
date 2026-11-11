@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi primera página</title>
+  <meta name="description" content="Página de práctica publicada con GitHub Pages.">
+  <style>
+    :root { --fondo:#f6f7f9; --texto:#1a1d23; --tarjeta:#ffffff; --acento:#0b5fd1; --borde:#e2e5ea; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fondo:#12141a; --texto:#eceef2; --tarjeta:#1b1e26; --acento:#6ea8ff; --borde:#2a2e38; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, sans-serif; background:var(--fondo); color:var(--texto); line-height:1.6; }
+    main { max-width: 760px; margin: 0 auto; padding: 32px 16px; }
+    h1 { margin: 0 0 8px; font-size: 2rem; }
+    .card { background:var(--tarjeta); border:1px solid var(--borde); border-radius:12px; padding:16px 20px; margin-top:16px; }
+    a { color:var(--acento); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Mi primera página en GitHub</h1>
+    <p>Si estás viendo esto, ya publiqué una página web con GitHub Pages.</p>
+
+    <div class="card">
+      <h2>Lo que estoy aprendiendo</h2>
+      <ul>
+        <li>Crear repositorios</li>
+        <li>Subir archivos y hacer commits</li>
+        <li>Publicar con GitHub Pages</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Prueba de edición</h2>
+      <!-- Cambia el texto de abajo desde GitHub (ícono del lápiz), guarda con Commit y recarga la página -->
+      <p>Edita esta línea desde GitHub y comprueba que el cambio aparece aquí.</p>
+    </div>
+  </main>
+</body>
+</html>
